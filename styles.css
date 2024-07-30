@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  
+}
+.clear-fix{
+    clear: both;
+}
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size:100% 100% ;
+    background-repeat: no-repeat ;
+   height:100vh ;
+   background-position: center;
+   color: white;
+   text-align: center;
+   font-size: 27px;
+}
+.home .nav{
+   
+   padding: 10px 0;
+}
+.nav .logo{
+    
+    float: left;
+    margin: 0 20px;
+}
+.nav .logo img {
+    height: 50px;
+}
+.nav .icons{
+    
+    float: right;
+    padding: 10px 10px ;
+    font-weight: 200;
+}
+.nav .icons a{
+    padding: 0 20px;
+}
+.home .contact{
+   margin-top: 120px ;
+}
+.contact .welcome
+{
+padding: 5px;
+
+}
+.contact .preif{
+    padding: 10px 100px;
+    font-size: 30px;
+    
+}
+.btn{
+    display: inline-block;
+ margin: 20px 0px;
+font-size: 20px;
+padding: 25px;
+border: 1px solid transparent;
+border-radius: .25rem;
+}
+.btn1{
+    background-color: #8e7754;
+    border:2px solid #8e7754;
+}
+.btn2{
+    border:2px solid #fff;
+
+}
+.home .rec{
+    height: 50px;
+    width: 30px;
+    border: #fff 2px solid;
+    border-radius: 40%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.home .rec .line{
+height: 10px;
+width: 5px;
+background-color: #fff;
+margin: auto;
+margin-top: 20px;
+border-radius: 50%;
+}
+/* abouut */
+.about{
+    color: black;
+   padding-top: 150px;
+    font-size: 20px ;
+    height: 90vh;
+}
+.about .image{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+}
+.about .image img{
+    width: 100%;
+}
+.about .content
+{
+    text-align: left;
+    margin-right: 30px;
+    width: 45%;
+    float: right;
+}
+.about .content h2{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.38em;
+}
+.about .content p{
+    line-height: 2em;
+    padding: 20px 0;
+}
+.about .content li{
+    line-height: 2em;
+    padding: 5px 0;
+}
+/* offer */
+.offer{
+    height: 85vh;
+    font-size: 19px;
+}
+.offer .content{
+    float: left;
+    width:50%;
+    color:#311;
+    padding: 40px 20px;
+    text-align: left;
+  
+}
+.offer .content p{
+    padding-top: 30px;
+}
+.offer .image{
+    float: right;
+    width: 42%;
+    padding: 0 20px;
+    
+}
+.offer .image img{
+    width: 100%;
+}
+/* baking */
+.baking{
+    color: black;
+    font-size: 16px;
+}
+.baking .content {
+    margin: auto;
+    text-align: center;
+}
+
+.baking .iteams .iteam{
+    width: 30%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+.baking .iteams .iteam img{
+    width: 100%;
+}
+.baking p{
+    margin-top: 20px;
+}
+/* contact */
+.content{
+color: black;
+font-size: 19px;
+
+}
+.contact .content{
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.contact .content p{
+    margin-top: 20px;
+
+}
+
+.contact .map{
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    background-image: url(images/dark.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+
+}
+.contact .map iframe{
+    width: 100%;
+}
+/* footer */
+.footer
+{ font-size: 18px;
+  color: black;
+  padding-bottom: 50px; 
+}
+.footer .content .iteam{
+    width: 20%;
+    float: left;
+    margin:10px 30px;
+    text-align: left;
+}
+.footer .content .iteam li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
